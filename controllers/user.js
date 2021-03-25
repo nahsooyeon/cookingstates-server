@@ -41,6 +41,7 @@ module.exports = {
         .status(200)
         .json({ accessToken: accessToken });
     }
+    console.log(userInfo);
   },
   logout: async (req, res) => {
     // get  // access token 확인 // (req.headers.authorization)
